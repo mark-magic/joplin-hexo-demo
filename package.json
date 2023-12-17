@@ -5,11 +5,11 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "gh-pages -d public --dotfiles",
     "server": "hexo server"
   },
   "hexo": {
-    "version": ""
+    "version": "7.0.0"
   },
   "dependencies": {
     "hexo": "^7.0.0",
@@ -22,5 +22,11 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0"
+  },
+  "devDependencies": {
+    "@mark-magic/cli": "^0.8.0",
+    "@mark-magic/plugin-hexo": "link:/Users/rxliuli/code/web/mark-magic/packages/plugin-hexo",
+    "@mark-magic/plugin-joplin": "^0.8.0",
+    "gh-pages": "^6.1.0"
   }
 }
