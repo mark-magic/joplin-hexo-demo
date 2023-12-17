@@ -24,7 +24,7 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-renderer-marked:
-    specifier: ^6.0.0
+    specifier: ^6.2.0
     version: 6.2.0
   hexo-renderer-stylus:
     specifier: ^3.0.0
@@ -38,14 +38,14 @@ dependencies:
 
 devDependencies:
   '@mark-magic/cli':
-    specifier: ^0.8.0
-    version: 0.8.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12)
+    specifier: ^0.9.0
+    version: 0.9.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12)
   '@mark-magic/plugin-hexo':
-    specifier: link:/Users/rxliuli/code/web/mark-magic/packages/plugin-hexo
-    version: link:../../mark-magic/packages/plugin-hexo
+    specifier: ^0.9.0
+    version: 0.9.0
   '@mark-magic/plugin-joplin':
-    specifier: ^0.8.0
-    version: 0.8.0
+    specifier: ^0.9.0
+    version: 0.9.0
   gh-pages:
     specifier: ^6.1.0
     version: 6.1.0
@@ -757,15 +757,15 @@ packages:
     resolution: {integrity: sha512-ZrI0J9wftPCQNlwLKZQAkAg0FrQk0xXNDGHqv4d2VaTBC8Kye2L8ET4CEAZf5M7IWQiXIIl1kVCCOI0HfvVdow==}
     dev: true
 
-  /@mark-magic/cli@0.8.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12):
-    resolution: {integrity: sha512-xsKzx1Y8WRYA5Ftna27iL1N/KL5dKRDriK7TULUjhbBoFP7VwbI9P/4bFLA+oHiRxy788yfBn1l1f+2v0NhR/Q==}
+  /@mark-magic/cli@0.9.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12):
+    resolution: {integrity: sha512-T6G+x9FCG7uMLvCRQIHozrFEtt4RGgFHi8rqt0gFVJyfZwr7PZ0XmPNB2WdqdaMSS4CY2qqLASgj3DGEKIyY9w==}
     hasBin: true
     dependencies:
       '@liuli-util/async': 3.6.1
-      '@mark-magic/core': 0.8.0
-      '@mark-magic/plugin-docs': 0.8.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12)
-      '@mark-magic/plugin-epub': 0.8.0
-      '@mark-magic/plugin-local': 0.8.0
+      '@mark-magic/core': 0.9.0
+      '@mark-magic/plugin-docs': 0.9.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12)
+      '@mark-magic/plugin-epub': 0.9.0
+      '@mark-magic/plugin-local': 0.9.0
       bundle-require: 4.0.2(esbuild@0.18.20)
       commander: 11.1.0
       esbuild: 0.18.20
@@ -807,8 +807,8 @@ packages:
       - vue
     dev: true
 
-  /@mark-magic/core@0.8.0:
-    resolution: {integrity: sha512-ZcFxotY5RQzyA3ehv0WBtD5nsQM8/ltvjCxdk/aFJW6bhWTkFAmdfJQZNYeUqiv+QMgsmFQ931+ZISpFa9oxPw==}
+  /@mark-magic/core@0.9.0:
+    resolution: {integrity: sha512-zwZreUbp6boCwN0xy+1Ry49oiBDRH84P3PnPWZiGJ29VI40CD2XYfRTiKhdt36szgqRoHrSLS4XyaYTwsR/+oQ==}
     dependencies:
       '@liuli-util/async': 3.6.1
       eventemitter3: 5.0.1
@@ -825,15 +825,15 @@ packages:
       mustache: 4.2.0
     dev: true
 
-  /@mark-magic/plugin-docs@0.8.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12):
-    resolution: {integrity: sha512-BmAhLQeodZeeYEZyquRZXhWoDS0rxZ/UHvmDL5PoAxXprh9xHuZ0WSI+XUX2qUOHBTW0vMriHDcK/AW/yzH3iw==}
+  /@mark-magic/plugin-docs@0.9.0(@algolia/client-search@4.22.0)(search-insights@2.13.0)(stylus@0.59.0)(vue@3.3.12):
+    resolution: {integrity: sha512-kLADVccjwc6igzxXwvR5J0qSdIfqod86mHCLWIGAORRJ93PiInGSOHuCkUk3Bx9FycYxs4GGS6mZwklJWGfrPA==}
     dependencies:
       '@liuli-util/fs': 0.1.0
       '@liuli-util/markdown-util': 0.8.0
       '@liuli-util/tree': 3.8.1
-      '@mark-magic/core': 0.8.0
-      '@mark-magic/plugin-local': 0.8.0
-      '@mark-magic/utils': 0.8.0
+      '@mark-magic/core': 0.9.0
+      '@mark-magic/plugin-local': 0.9.0
+      '@mark-magic/utils': 0.9.0
       feed: 4.2.2
       fs-extra: 11.2.0
       lodash-es: 4.17.21
@@ -873,14 +873,14 @@ packages:
       - vue
     dev: true
 
-  /@mark-magic/plugin-epub@0.8.0:
-    resolution: {integrity: sha512-EbP+ZEy0HxZfA2li9kBVU63bXM8+MZThk5WurOZH2usmyZu4EjjME2TuqCeAG6e/najKLc0De4aWEY64fqt8HA==}
+  /@mark-magic/plugin-epub@0.9.0:
+    resolution: {integrity: sha512-zabrIfsWfK0i2aAIwn+8q5G7xsarHhKDHON9XlmbirOsZYmZCb4uQuPfWZMCBSSSLrzoZkhYu1vDSf624VXTSg==}
     dependencies:
       '@liuli-util/markdown-util': 0.8.0
       '@liuli-util/tree': 3.8.1
-      '@mark-magic/core': 0.8.0
+      '@mark-magic/core': 0.9.0
       '@mark-magic/epub': 0.2.1
-      '@mark-magic/utils': 0.8.0
+      '@mark-magic/utils': 0.9.0
       fs-extra: 11.2.0
       lodash-es: 4.17.21
       pathe: 1.1.1
@@ -889,8 +889,18 @@ packages:
       - supports-color
     dev: true
 
-  /@mark-magic/plugin-joplin@0.8.0:
-    resolution: {integrity: sha512-HfxhPkBrZm/9RwP6Mh+SY6HDBWloOKyFnmX0d/8ybxmGliR9MwJXxPZGgpQkI2zmS31T89emH15Mkcu4FI0ZEQ==}
+  /@mark-magic/plugin-hexo@0.9.0:
+    resolution: {integrity: sha512-T7oCSsQwWxJZfoiGxVorvqy8cw3agq3PuS2/uBEnrKmZ/9kpuRpqqB4VTuj2WVy2iK6YjgLGt+plq+JGxKAHZw==}
+    dependencies:
+      '@mark-magic/core': 0.9.0
+      '@mark-magic/plugin-local': 0.9.0
+      pathe: 1.1.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@mark-magic/plugin-joplin@0.9.0:
+    resolution: {integrity: sha512-QilluavLNrPw5e3GC3qKK1YMsIA2B9LQmeMZFUoTJx2zDMZFRMFT+LUYAt/qzWXcV4gi1El2+pATIqjEfWhfQw==}
     dependencies:
       '@liuli-util/async': 3.6.1
       '@liuli-util/fs-extra': 0.1.0
@@ -904,13 +914,13 @@ packages:
       - supports-color
     dev: true
 
-  /@mark-magic/plugin-local@0.8.0:
-    resolution: {integrity: sha512-ppdFN/IPg2vcUWElD0+AJf8Wly3dGO1Byb+OOoIONFPAc0/3Pwij0BsSlalFqm171qbBHt/7uhucUSDtFN7Ojg==}
+  /@mark-magic/plugin-local@0.9.0:
+    resolution: {integrity: sha512-vG4jeA254HSIp/TJiECv201AA7J6HnMgI+xbSFu3bqHom7xhWFE0dxZcRCFeqCaVfzoLZRJDVeM5oOyBYQxgcA==}
     dependencies:
       '@liuli-util/async': 3.6.1
       '@liuli-util/markdown-util': 0.8.0
-      '@mark-magic/core': 0.8.0
-      '@mark-magic/utils': 0.8.0
+      '@mark-magic/core': 0.9.0
+      '@mark-magic/utils': 0.9.0
       fast-glob: 3.3.2
       filenamify: 5.1.1
       fs-extra: 11.2.0
@@ -921,13 +931,13 @@ packages:
       - supports-color
     dev: true
 
-  /@mark-magic/utils@0.8.0:
-    resolution: {integrity: sha512-/aTusAxFkFSxR5Qcev+kK2uEbGE04eGm4vdJwwy8IC+atL63OEl6yJhuBLvHsQ6YtaobD3uG99YeC5RoSHZpYg==}
+  /@mark-magic/utils@0.9.0:
+    resolution: {integrity: sha512-jpoDhy7Lxs+0LxxfMqdcMRQ3AeiHmP7AlRv1rIjsnrlXqwN5R8CRtZNDZ3Sk0YIoHtgBTECavAh4K6bOSQeUlw==}
     dependencies:
       '@liuli-util/fs': 0.1.0
       '@liuli-util/fs-extra': 0.1.0
       '@liuli-util/tree': 3.8.1
-      '@mark-magic/core': 0.8.0
+      '@mark-magic/core': 0.9.0
       jszip: 3.10.1
       pathe: 1.1.1
     dev: true
@@ -3986,6 +3996,10 @@ packages:
   /sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
 
+  /sax@1.3.0:
+    resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
+    dev: true
+
   /saxes@6.0.0:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
@@ -4727,7 +4741,7 @@ packages:
     resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==}
     hasBin: true
     dependencies:
-      sax: 1.2.4
+      sax: 1.3.0
     dev: true
 
   /xml-name-validator@4.0.0:
