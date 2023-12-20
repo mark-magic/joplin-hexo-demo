@@ -1,14 +1,14 @@
-# mark-magic.config.yaml
+#mark-magic.config.yaml
 tasks:
   - name: blog
     input:
-      name: '@mark-magic/plugin-joplin' # 输入插件，从 joplin 笔记中读取数据
+      name: '@mark-magic/plugin-joplin' # Input plug-in to read data from joplin notes
       config:
-        baseUrl: 'http://localhost:27583' # joplin web clipper service 的地址，一般是 http://localhost:41184，这里演示使用了开发时的 http://localhost:27583
-        token: '5bcfa49330788dd68efea27a0a133d2df24df68c3fd78731eaa9914ef34811a34a782233025ed8a651677ec303de6a04e54b57a27d48898ff043fd812d8e0b31' # joplin web clipper service 的 token
-        tag: blog # 根据标签过滤笔记
+        baseUrl: 'http://localhost:27583' # The address of joplin web clipper service is usually http://localhost:41184. The demonstration here uses http://localhost:27583 during development.
+        token: '5bcfa49330788dd68efea27a0a133d2df24df68c3fd78731eaa9914ef34811a34a782233025ed8a651677ec303de6a04e54b57a27d48898ff043fd812d8e0b31' # jo Token of plin web clipper service
+        tag: blog # Filter notes based on tags
     output:
-      name: '@mark-magic/plugin-hexo' # 输出插件，生成 hexo 需要的文件
+      name: '@mark-magic/plugin-hexo' # Output plug-in and generate files required by hexo
       config:
-        path: './' # hexo 项目的根目录
-        base: /joplin-hexo-demo/ # 部署时的 base
+        path: './' # The root directory of the hexo project
+        base: /joplin-hexo-demo/ # Base during deployment
